@@ -1,0 +1,12 @@
+using Itmo.ObjectOrientedProgramming.Lab4.Entities.FileSystems;
+using Itmo.ObjectOrientedProgramming.Lab4.Models.OperationResults;
+
+namespace Itmo.ObjectOrientedProgramming.Lab4.Models.Commands;
+
+public class DisconnectionCommand : ICommand
+{
+    public OperationResult Execute(FileSystemContext fileSystemContext)
+    {
+        return new OperationResult.Success("Файловая система отключена!");
+    }
+}
