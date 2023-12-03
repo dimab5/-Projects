@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Itmo.ObjectOrientedProgramming.Lab1</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Models\Engines\ImpulseEngines\" />
+      <Folder Include="Models\Engines\JumpEngines\" />
+    </ItemGroup>
+
+</Project>
